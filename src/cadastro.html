@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lunar Escape: Administração</title>
+    <!-- Bootstrap -->
+    <link href="../resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+
+    <div class="container-fluid le-mainWrapper" id="le-cadastro">
+      <!-- cabecalho -->
+      <div class="row"><div class="col-md-12" id="le-cabecalho"></div></div>
+
+      <!-- conteudo -->
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 le-conteudo">
+
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="le-tituloPagina">Cadastro</h1>
+            </div>
+          </div>
+
+
+          <form class="le-formCadastro col-md-8 col-md-offset-2" >
+
+            <fieldset>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group ">
+                    <input type="text" required minlength="8" name="nome" id="le-nome" class="form-control le-inputCadastro" placeholder="Nome">
+                  </div>
+                </div>              
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group ">
+                    <input type="text" required minlength="5" name="nome-user" id="le-nome-user" class="form-control le-inputCadastro" placeholder="Nome de usuário">
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset name="le-radioFieldset">
+              <div class="row">
+                <div class="col-md-12">
+                   <label class="radio-inline"><input type="radio" name="le-radio" class="le-radioCadastro">Me cadastrando</label>
+                   <label class="radio-inline"><input type="radio" name="le-radio" class="le-radioCadastro">Cadastrando outro ADM</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset name="le-radio">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="email" required minlength="8" name="email" id="le-email" class="form-control le-inputCadastro" placeholder="E-mail">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group ">
+                    <input type="email" required minlength="8" name="conf-email" id="le-conf-email" class="form-control le-inputCadastro" placeholder="Confirme o e-mail">
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group ">
+                    <input type="password" required name="senha" minlength="8" id="le-senha" class="form-control le-inputCadastro" placeholder="Senha">
+                  </div>
+                </div>
+              </div>  
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group ">
+                    <input type="password" required name="conf-senha" minlength="8" id="le-conf-senha" class="form-control le-inputCadastro" placeholder="Confirme a senha">
+                  </div>
+                </div>
+              </div>    
+            </fieldset>
+
+            <div class="">
+              <button type="button" class="btn col-md-12 btn-success le-btnRedireciona" value="cadastro-resposta.html">Enviar</button>
+            </div>   
+          </form>
+        </div>
+      </div>
+
+      <!-- rodape -->
+      <div class="row"><div class="col-md-12" id="le-rodape"></div></div>
+
+    </div>
+    
+    <!-- scripts -->
+    <script src="../resources/jquery/jquery-1.12.4.min.js"></script>
+    <script src="../resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/includes.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

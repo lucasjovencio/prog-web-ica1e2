@@ -1,0 +1,102 @@
+/*
+ * comum a todas as paginas
+ */
+body{
+	background: #EDFCF4;
+}
+
+.le-texto__respostas{
+	margin-top: 10px;
+}
+
+/*cabecalho*/
+.le-menu{
+	list-style: none;
+	text-align: right;
+}
+.le-menu__item{
+	display: inline-block;
+	padding: 10px;
+}
+#le-cabecalho{
+	background: #1c4035;
+	min-height: 50px;
+	z-index: 999;
+	box-shadow: 3px 3px 3px #888888; 
+}
+
+/*conteudo*/
+.le-conteudo{
+	min-height: 70vh;	
+	padding: 20px 20px;	
+}
+
+/*rodape*/
+#le-rodape{
+	background: #7faa9c;
+	min-height: 200px;
+	margin-top: 50px;
+}
+.le-rodape__creditos{
+	text-align: center;
+	font-size: 12px;
+	color: #4579CC;
+	margin-top: 100px;
+}
+
+.le-tituloPagina{
+	margin-bottom:25px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+/*------------------------------*/
+
+/*
+ * index
+ */
+
+.le-mainWell{
+	margin-top:25px;
+	margin-bottom:25px;
+	min-height: 200px;
+}
+
+/*--------------------------------*/
+
+/*
+ *  login
+ */
+
+
+.le-inputLogin{
+	width: 100%;
+}
+
+/*------------------------------*/
+
+/*
+ * index
+ */
+
+[name = "le-radioFieldset"]{
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+
+
+
+/*--------------------------------*/
+
+/*
+ * padrões
+ */
+
+.le-link--cinza{
+	color: #ccc;
+}
+.le-link--cinza:hover{
+	color: #888;
+	text-decoration: none;
+
+}
