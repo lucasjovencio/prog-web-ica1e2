@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<cadastro>
+  <usuario>
+    <nome>lucas jovencio</nome>
+    <email>lucasjovencio@outlook.com.br</email>
+    <nomeusuario>lucasjovencio44</nomeusuario>
+    <senha>123456789</senha>
+    <id>1</id>
+  </usuario>
+</cadastro>
